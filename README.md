@@ -22,15 +22,6 @@
 
 ---
 
-## Instalação e Execução
-
-### Clone o Repositório
-
-```bash
-git clone https://github.com/seu-usuario/atvii-autobots-microservico-spring.git
-cd atvii-autobots-microservico-spring/automanager
-```
-
 ### Compile o Projeto
 
 ```bash
@@ -39,9 +30,11 @@ mvn clean install
 
 ### Execute a Aplicação
 
+cd automanager  
 ```bash
-mvn spring-boot:run
-```
+ mvn spring-boot:run
+ ```
+Ou diretamente pela classe AutomanagerApplication.java:
 
 ###  Acesse a Aplicação
 
